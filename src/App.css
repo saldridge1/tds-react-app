@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 55vmin;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px #61dafb)
+        drop-shadow(0 0 1px #61dafb)
+        drop-shadow(0 0 3px #b5ffff)
+        drop-shadow(0 0 2px #eaf9fe);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #000000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tds-logo {
+  width: 220px;
+  animation: none;
+  display: block;
+  margin-top: -30px;
+}
+
+.tds-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
